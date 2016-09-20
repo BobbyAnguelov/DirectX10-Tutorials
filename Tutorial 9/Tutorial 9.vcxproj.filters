@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp" />
+    <ClCompile Include="dxManager.cpp">
+      <Filter>DXManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeScene.cpp">
+      <Filter>DXManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderScene.cpp">
+      <Filter>DXManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dxManager.h">
+      <Filter>DXManager</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexTypes.h">
+      <Filter>DXManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DXManager">
+      <UniqueIdentifier>{a41c8908-47b2-4942-a65a-2f7ccff0501c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{d643296f-7cff-4363-a5fa-f4b1e694a671}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="GS.fx">
+      <Filter>HLSL</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

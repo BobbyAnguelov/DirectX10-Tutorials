@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp" />
+    <ClCompile Include="dxManager.cpp">
+      <Filter>DXManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dxManager.h">
+      <Filter>DXManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="hrTimer.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexTypes.h">
+      <Filter>DXManager</Filter>
+    </ClInclude>
+    <ClInclude Include="lights.h">
+      <Filter>DXManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DXManager">
+      <UniqueIdentifier>{b1410f0c-25c8-4021-891b-dcc130201288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{1bf83e98-770e-47f0-9b82-bfa9cdc1fd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input Manager">
+      <UniqueIdentifier>{358183bd-303a-472f-8f55-b42385598a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{e9963219-8694-4ed0-82d1-348a34dbbb0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FX_HLSL Include="Lighting.fx">
+      <Filter>HLSL</Filter>
+    </FX_HLSL>
+  </ItemGroup>
+</Project>

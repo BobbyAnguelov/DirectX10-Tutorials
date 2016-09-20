@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DX10Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX10InitializeScene.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Model Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="DX10Resources.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX10RenderFrame.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX10ExternalControls.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2e8609e8-9d27-415a-881c-98422237f913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{9927e727-4359-44ec-8d3e-a88ef0d50a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{fe6147ba-4671-4bd7-84ce-503aa223f425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL FX">
+      <UniqueIdentifier>{daac8b6e-bd25-4688-8a7f-ec4201325d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model Loader">
+      <UniqueIdentifier>{f5f96006-bd82-4a99-a748-16b9c6e6753a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX10Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RawInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="HRTimer.h" />
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Model Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="NMD_Types.h">
+      <Filter>Model Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="DX10Resources.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ShadowMap.fx">
+      <Filter>HLSL FX</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
