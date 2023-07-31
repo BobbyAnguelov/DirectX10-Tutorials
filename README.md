@@ -9,7 +9,7 @@ The code for the tutorials found on [www.takinginitiative.net](https://takingini
 5. [Tutorial 5](https://takinginitiative.wordpress.com/2009/02/24/directx-10-tutorial-5-basic-meshes/) – Basic D3DX Meshes
 6. [Tutorial 6](https://takinginitiative.wordpress.com/2010/04/09/directx-10-tutorial-6-transparency-and-alpha-blending/) – Alpha Blending
 7. [Tutorial 7](https://takinginitiative.wordpress.com/2010/07/30/directx-10-tutorial-7-viewports/) – Viewports
-8. [Tutorial 8](http://takinginitiative.net/2010/08/30/directx-10-tutorial-8-lighting-theory-and-hlsl/) – Lighting Theory and HLSL
-9. [Tutorial 9](http://takinginitiative.net/2011/01/12/directx10-tutorial-9-the-geometry-shader/) – The Geometry Shader
-10. [Tutorial 10](http://takinginitiative.net/2011/05/15/directx10-tutorial-10-shadow-mapping/) – Shadow Mapping Part 1
-11. [Tutorial 10](http://takinginitiative.net/2011/05/25/directx10-tutorial-10-shadow-mapping-part-2/) – Shadow Mapping Part 2
+8. [Tutorial 8](https://takinginitiative.wordpress.com/2010/08/30/directx-10-tutorial-8-lighting-theory-and-hlsl/) – Lighting Theory and HLSL
+9. [Tutorial 9](https://takinginitiative.wordpress.com/2011/01/12/directx10-tutorial-9-the-geometry-shader/) – The Geometry Shader
+10. [Tutorial 10](https://takinginitiative.wordpress.com/2011/05/15/directx10-tutorial-10-shadow-mapping/) – Shadow Mapping Part 1
+11. [Tutorial 10](https://takinginitiative.wordpress.com/2011/05/25/directx10-tutorial-10-shadow-mapping-part-2/) – Shadow Mapping Part 2
